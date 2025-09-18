@@ -1,0 +1,8 @@
+Already implemented terrain deformation system...
+And tested on android devices and it works without problem
+
+You can watch how it works:
+You can find terrain deformation complete tutorial from here:
+https://www.youtube.com/watch?v=hlRpfTH6t-w
+
+Scripts are available under Scripts folder from this package

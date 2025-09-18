@@ -1,0 +1,43 @@
+
+This package (update 2.3) has been exported from 2020.3.24f1 on Dec 2021 for URP
+Download update 2.2 for built-in pipeline:
+https://drive.google.com/file/d/14FSz9JrJXLIbUhI4k1GmuaHbJllZiNhb/view?usp=sharing
+_________________________________________________________
+Question 1 :  Can i use light mapping with this kit?
+
+No... baking lights will remove the shadows on deformed terrain parts.
+Because i have used terrain deformation at realtime, so you must use a realtime directional light as sun light... 
+You can disable shadows to get the maximum performance for directional light
+Already tested without performance lost on android devices
+_________________________________________________________
+
+Question 2: Where is tutorials play list ?
+https://www.youtube.com/watch?v=XzeWPasDr0o&list=PLVXvfvDWvto3SjaycIhEWmSeNENR74OVR
+_________________________________________________________
+
+Question 3 : How can i review this asset ?
+
+If you have a question contact me at : aliyeredon@gmail.com
+
+If you want to write review, refer to asset page :
+https://assetstore.unity.com/packages/templates/packs/off-road-truck-template-2-76990
+If you want to discus, do this here :
+https://forum.unity3d.com/threads/50-off-off-road-truck-template.444371/
+_________________________________________________________
+
+License:
+
+Upgrade Icons From:
+Freepik:
+ http://www.freepik.com
+
+ Terrain and Barrel Textures From:
+ http://www.textures.com
+
+HDRI skybox:
+https://hdri-skies.com/
+
+Pickup model :
+https://sketchfab.com/DanielZhabotinsky
+
+_________________________________________________________ks/car-parking-kit-2-2-71914
