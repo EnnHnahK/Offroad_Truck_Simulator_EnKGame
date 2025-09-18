@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Deadzone
+  - FinishLine
+  - Wheel
+  - RoadPoint
+  - TutorialNitro
+  - DeliveryZone
+  - Mission
+  - MissionZone
+  - Coin
+  - DirtRoad
+  - Vehicle
+  - EnterExitPoint
+  - IgnoreDamage
+  - Trailer
+  - Dummy
+  - Ground
+  - Hittable
+  - SnowRoad
+  - SandRoad
+  - ConstructionRoad
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Character
+  - Water
+  - UI
+  - Wheel
+  - DeformableTerrain
+  - VehicleTrigger
+  - Ragdoll
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
