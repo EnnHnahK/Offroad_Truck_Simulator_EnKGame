@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a97e802bfa80e74a918fe1c7aabb5ce, type: 3}
+  m_Name: Vehicle_Data
+  m_EditorClassIdentifier: 
+  vehicles:
+  - name: First Vehicle
+    id: 0
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: 249271304fc808d4a81a4ce023738dae, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.3
+    vehiclePrefab: {fileID: 5276439425155462700, guid: 174db6f53ae639440bddd337d70d253a, type: 3}
+  - name: 2nd Vehicle
+    id: 1
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: ca539751633a4fd4da548cd9e3be304b, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.3
+    vehiclePrefab: {fileID: 5764383349146989116, guid: bad51a57175abb54ebc7130abb8d3a76, type: 3}
+  - name: 3th Vehicle
+    id: 2
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: c9fa5d8f4cf40c44280bd0e7570e33c8, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.08
+    vehiclePrefab: {fileID: 6304583781171515154, guid: 3664557a9b52b7a42963b71f234b0fd9, type: 3}
+  - name: 4th Vehicle
+    id: 3
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: 3399f2310b884ae479b4f0d5d292b2f6, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.08
+    vehiclePrefab: {fileID: 5764383349146989116, guid: 0d02cafc39e4239498073a3517cc20d3, type: 3}
+  - name: 5th Vehicle
+    id: 4
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: 99b7753f0425d8040b73c0210b0d9a8a, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.15
+    vehiclePrefab: {fileID: 5276439425155462700, guid: ce1a0358b6e66354495e36ce2e0936a4, type: 3}
+  - name: 6th Vehicle
+    id: 5
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: c2bc2847fc6c7b7419189385efda5080, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.1
+    vehiclePrefab: {fileID: 6304583781171515154, guid: dfcd4033e792bbf42847b20e4eeb0da0, type: 3}
+  - name: 7th Vehicle
+    id: 6
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: 3e60bd87041685e48bcd67a4316370ba, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.15
+    vehiclePrefab: {fileID: 5276439425155462700, guid: f2d22ded6708fad40a97963f14fad912, type: 3}
+  - name: Exchange Vehicle
+    id: 7
+    vehicleType: 3
+    vehicleImage: {fileID: 21300000, guid: 223bcf01a4106e04cbc59f70dd586564, type: 3}
+    bgImage: {fileID: 21300000, guid: 8be5bd6b7b26ce845b88def64be31c29, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 14000000190000001e000000
+    BaseGrip: 0.08
+    vehiclePrefab: {fileID: 6768931604525011651, guid: a48093154c5d9984f940356cdda625c3, type: 3}
+  - name: Car IAP 3
+    id: 8
+    vehicleType: 0
+    vehicleImage: {fileID: 21300000, guid: 3c38b6373daa5514683c7cf78f8eed37, type: 3}
+    bgImage: {fileID: 21300000, guid: 103d2f7819b273846bc8c28af89d4b15, type: 3}
+    iapDes: 010000000200000002000000
+    priceIAP: 85.99
+    iapExchange: 
+    BaseGrip: 0.15
+    vehiclePrefab: {fileID: 6768931604525011651, guid: 2012c907a46c8754f86539e5d799a91a, type: 3}
+  - name: Car IAP 2
+    id: 9
+    vehicleType: 0
+    vehicleImage: {fileID: 21300000, guid: 5c3ee8d03e91fc243a703a69ca65ff17, type: 3}
+    bgImage: {fileID: 21300000, guid: 103d2f7819b273846bc8c28af89d4b15, type: 3}
+    iapDes: 010000000100000001000000
+    priceIAP: 21.99
+    iapExchange: 
+    BaseGrip: 0.2
+    vehiclePrefab: {fileID: 6768931604525011651, guid: d29644efe0328e442aa645076b8489f1, type: 3}
+  - name: Car IAP 1
+    id: 10
+    vehicleType: 0
+    vehicleImage: {fileID: 21300000, guid: 9e7fa119afe03b44081eec17f67a69c8, type: 3}
+    bgImage: {fileID: 21300000, guid: 103d2f7819b273846bc8c28af89d4b15, type: 3}
+    iapDes: 010000000000000000000000
+    priceIAP: 8.99
+    iapExchange: 
+    BaseGrip: 0.1
+    vehiclePrefab: {fileID: 6768931604525011651, guid: c9f2ec7106eaed7489895a0dd9913a44, type: 3}
+  - name: Native Vehicle
+    id: 11
+    vehicleType: 2
+    vehicleImage: {fileID: 21300000, guid: 7121b4d90ee214443863673cbe41425d, type: 3}
+    bgImage: {fileID: 21300000, guid: 71e85e7d939ee6642aa3c28e9effb770, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.15
+    vehiclePrefab: {fileID: 6304583781171515154, guid: 59f5575c3437728408b747afc1468633, type: 3}
+  - name: New Vehicle
+    id: 12
+    vehicleType: 1
+    vehicleImage: {fileID: 21300000, guid: 7121b4d90ee214443863673cbe41425d, type: 3}
+    bgImage: {fileID: 21300000, guid: 2fede1f01154d1e4292030cca352fb56, type: 3}
+    iapDes: 
+    priceIAP: 0
+    iapExchange: 
+    BaseGrip: 0.15
+    vehiclePrefab: {fileID: 5764383349146989116, guid: 73dab4c01f35bf946849a89eda074be1, type: 3}

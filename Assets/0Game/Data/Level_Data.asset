@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29175a0555e063f4085023bdb0597249, type: 3}
+  m_Name: Level_Data
+  m_EditorClassIdentifier: 
+  maxLv: 9
+  maxPack: 0
+  levels:
+  - name: Level 0
+    id: 0
+    packID: 0
+    levelSprite: {fileID: 21300000, guid: f1fb0de72d0e24745b4d638bbefdc76f, type: 3}
+    baseFuel: 150
+    basePerLevel: 10
+    fragmentsReward: 010000000100000001000000
+  - name: Level 1
+    id: 1
+    packID: 0
+    levelSprite: {fileID: 21300000, guid: 24ec86e2735bcae43b57f70ccce486d1, type: 3}
+    baseFuel: 36
+    basePerLevel: 8
+    fragmentsReward: 020000000100000000000000
+  - name: Level 2
+    id: 2
+    packID: 0
+    levelSprite: {fileID: 21300000, guid: a3733d100585a87449996b78f70011d6, type: 3}
+    baseFuel: 42
+    basePerLevel: 8
+    fragmentsReward: 010000000200000000000000
+  - name: Level 3
+    id: 3
+    packID: 1
+    levelSprite: {fileID: 21300000, guid: d09135ad43356334b8ddede4df6beb7c, type: 3}
+    baseFuel: 34
+    basePerLevel: 4.25
+    fragmentsReward: 020000000200000000000000
+  - name: Level 4
+    id: 4
+    packID: 1
+    levelSprite: {fileID: 21300000, guid: f7244d7ec3596d54fa9c6562b4e2f0a3, type: 3}
+    baseFuel: 42
+    basePerLevel: 4.2
+    fragmentsReward: 000000000000000000000000
+  - name: Level 5
+    id: 5
+    packID: 1
+    levelSprite: {fileID: 21300000, guid: 13d38cf4e2692ff4083e8ae5293c7943, type: 3}
+    baseFuel: 30
+    basePerLevel: 4
+    fragmentsReward: 010000000200000001000000
+  - name: Level 6
+    id: 6
+    packID: 2
+    levelSprite: {fileID: 21300000, guid: 8ee248351b33e1046a2a8b6c8cb36488, type: 3}
+    baseFuel: 40
+    basePerLevel: 6
+    fragmentsReward: 000000000000000000000000
+  - name: Level 7
+    id: 7
+    packID: 2
+    levelSprite: {fileID: 21300000, guid: 9980955b7cb90f64bb0c9c18407bdc17, type: 3}
+    baseFuel: 60
+    basePerLevel: 6.5
+    fragmentsReward: 020000000100000001000000
+  - name: Level 8
+    id: 8
+    packID: 2
+    levelSprite: {fileID: 21300000, guid: 0b70e664adb4b164daca95f2cf2b9edd, type: 3}
+    baseFuel: 60
+    basePerLevel: 6.5
+    fragmentsReward: 000000000000000000000000

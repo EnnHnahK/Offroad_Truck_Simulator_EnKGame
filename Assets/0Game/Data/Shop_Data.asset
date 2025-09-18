@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 232b9fa301fc45d4eb24fd151a2afaec, type: 3}
+  m_Name: Shop_Data
+  m_EditorClassIdentifier: 
+  shopItems:
+  - name: GET SOME COINS
+    id: 0
+    coin: 500
+    itemType: 1
+    itemImage: {fileID: 21300000, guid: 0bf99bab733a929469060bd5e9d77785, type: 3}
+    itemTypeImage: {fileID: 21300000, guid: 1a4ff869f42d77a44aabf04ae460443b, type: 3}
+    price: 0
+  - name: SMALL COINS PACK
+    id: 1
+    coin: 200000
+    itemType: 0
+    itemImage: {fileID: 21300000, guid: 22dbf3b570ad71b4493566b9cd6eb693, type: 3}
+    itemTypeImage: {fileID: 21300000, guid: 66edd7dbc980cd242af2458d87160389, type: 3}
+    price: 2.99
+  - name: MEDIUM COINS PACK
+    id: 2
+    coin: 1000000
+    itemType: 0
+    itemImage: {fileID: 21300000, guid: 34b62b3569b9bcb4294c92bdb7e54e5c, type: 3}
+    itemTypeImage: {fileID: 21300000, guid: 50a4eb0830b12b84f8b44aeac68cfdea, type: 3}
+    price: 4.99
+  - name: BIG COINS PACK
+    id: 3
+    coin: 10000000
+    itemType: 0
+    itemImage: {fileID: 21300000, guid: 0802fde1f437c30438c2165f111f4f38, type: 3}
+    itemTypeImage: {fileID: 21300000, guid: afd2c375dffe2934ab09480cd9aad46b, type: 3}
+    price: 10.99

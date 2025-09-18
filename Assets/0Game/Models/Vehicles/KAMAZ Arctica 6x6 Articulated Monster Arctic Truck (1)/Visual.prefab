@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5626808592626249259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998327318665114769}
+  m_Layer: 0
+  m_Name: Visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4998327318665114769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5626808592626249259}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0.00000014901161}
+  m_LocalPosition: {x: 0, y: -0.704, z: 0.5899991}
+  m_LocalScale: {x: 20, y: 20, z: 20}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 9149335279191861800}
+  - {fileID: 222814461329902516}
+  - {fileID: 1462021894766407021}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1154065045502045093
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4998327318665114769}
+    m_Modifications:
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.299
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082523679424601202, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_Name
+      value: Rear KAMAZ Arctica Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2975219579570756205, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3131586221644597598, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6406165665838884519, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+--- !u!4 &1462021894766407021 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 310243842731083464, guid: e0c9fae5d717d4749be2e3826c544334, type: 3}
+  m_PrefabInstance: {fileID: 1154065045502045093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5363185418274050468
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4998327318665114769}
+    m_Modifications:
+    - target: {fileID: 1028401202597798431, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2416471694048530396, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.299
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4602392819135013174, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_Name
+      value: Head KAMAZ Arctica Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925925198870869755, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+--- !u!4 &9149335279191861800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3788982279668874124, guid: 3d858e2429bf4404890572abf3e3fda9, type: 3}
+  m_PrefabInstance: {fileID: 5363185418274050468}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8906710373381315031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 4998327318665114769}
+    m_Modifications:
+    - target: {fileID: 7549802827557792012, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8342555316155435225, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_Name
+      value: Glass KAMAZ Arctica Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.299
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+--- !u!4 &222814461329902516 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8686710819667153507, guid: eb2a87c62f620874786fe97e5a1ac9f6, type: 3}
+  m_PrefabInstance: {fileID: 8906710373381315031}
+  m_PrefabAsset: {fileID: 0}

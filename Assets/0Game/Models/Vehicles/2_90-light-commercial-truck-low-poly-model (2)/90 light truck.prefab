@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &253104764894910539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633008488355021553}
+  m_Layer: 0
+  m_Name: 90 light truck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633008488355021553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 253104764894910539}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1055589527833909461}
+  - {fileID: 304535675934796443}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &2804475262748278200
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 633008488355021553}
+    m_Modifications:
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2997499995840417177, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_Name
+      value: Body 90 light commercial truck Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3646154475240041548, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+--- !u!4 &304535675934796443 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2509229510360946467, guid: c925bf480da6c83448a4e5e6294ca40e, type: 3}
+  m_PrefabInstance: {fileID: 2804475262748278200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8788152689565500581
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 633008488355021553}
+    m_Modifications:
+    - target: {fileID: 7428920160549103391, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941949796251059914, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+      propertyPath: m_Name
+      value: Glass 90 light commercial truck Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+--- !u!4 &1055589527833909461 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8598496875833433200, guid: 68fc286c30dcfe54397b1f5ae44cee4a, type: 3}
+  m_PrefabInstance: {fileID: 8788152689565500581}
+  m_PrefabAsset: {fileID: 0}

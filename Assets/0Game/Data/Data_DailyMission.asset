@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26add39e793f7e341883883dafb445f8, type: 3}
+  m_Name: Data_DailyMission
+  m_EditorClassIdentifier: 
+  DailyTasks:
+  - ID: 0
+    typeDailyMission: 0
+    TaskName: Online for 5 minutes
+    max_progress: 5
+    fragmentsReward: 010000000000000000000000
+    DailyMissionHanldePrefab: {fileID: 7336304884596409437, guid: dec98f22d6d4e9c4582ff824b12be925, type: 3}
+  - ID: 1
+    typeDailyMission: 0
+    TaskName: Online for 10 minutes
+    max_progress: 10
+    fragmentsReward: 000000000100000000000000
+    DailyMissionHanldePrefab: {fileID: 7336304884596409437, guid: dec98f22d6d4e9c4582ff824b12be925, type: 3}
+  - ID: 2
+    typeDailyMission: 0
+    TaskName: Online for 15 minutes
+    max_progress: 15
+    fragmentsReward: 000000000000000001000000
+    DailyMissionHanldePrefab: {fileID: 7336304884596409437, guid: dec98f22d6d4e9c4582ff824b12be925, type: 3}
+  - ID: 3
+    typeDailyMission: 0
+    TaskName: Online for 30 minutes
+    max_progress: 30
+    fragmentsReward: 010000000100000000000000
+    DailyMissionHanldePrefab: {fileID: 7336304884596409437, guid: dec98f22d6d4e9c4582ff824b12be925, type: 3}
+  - ID: 4
+    typeDailyMission: 0
+    TaskName: Online for 60 minutes
+    max_progress: 60
+    fragmentsReward: 010000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 7336304884596409437, guid: dec98f22d6d4e9c4582ff824b12be925, type: 3}
+  - ID: 5
+    typeDailyMission: 1
+    TaskName: Complete 5 daily missions
+    max_progress: 5
+    fragmentsReward: 030000000200000002000000
+    DailyMissionHanldePrefab: {fileID: 7783229131954656390, guid: fa66f521eb6002046aedc7ef3438be60, type: 3}
+  - ID: 6
+    typeDailyMission: 2
+    TaskName: Play 5 levels - Reach at least 200m
+    max_progress: 5
+    fragmentsReward: 020000000100000000000000
+    DailyMissionHanldePrefab: {fileID: -5615459508676068845, guid: a28cf6b2a5dcf9c4896bbec3b1df1e1e, type: 3}
+  - ID: 7
+    typeDailyMission: 2
+    TaskName: Complete 3 levels
+    max_progress: 3
+    fragmentsReward: 020000000200000000000000
+    DailyMissionHanldePrefab: {fileID: 3134674686496672985, guid: 8793188e63cc46b49b8a91ae13a5fcdf, type: 3}
+  - ID: 8
+    typeDailyMission: 2
+    TaskName: Complete 2 In-come Missions
+    max_progress: 2
+    fragmentsReward: 030000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 346341277102642480, guid: baa16432b34180340874e2b1b3f654bd, type: 3}
+  - ID: 9
+    typeDailyMission: 2
+    TaskName: Complete 5 In-come Missions
+    max_progress: 5
+    fragmentsReward: 010000000200000002000000
+    DailyMissionHanldePrefab: {fileID: 346341277102642480, guid: baa16432b34180340874e2b1b3f654bd, type: 3}
+  - ID: 10
+    typeDailyMission: 2
+    TaskName: Complete 1 level with Crane
+    max_progress: 1
+    fragmentsReward: 050000000300000002000000
+    DailyMissionHanldePrefab: {fileID: 3134674686496672985, guid: 991db7d84d78b1543952c39c525068f5, type: 3}
+  - ID: 11
+    typeDailyMission: 2
+    TaskName: Complete 1 level with Firetruck
+    max_progress: 1
+    fragmentsReward: 040000000200000003000000
+    DailyMissionHanldePrefab: {fileID: 3134674686496672985, guid: ec939de79eaab11419fb15d29733c7d8, type: 3}
+  - ID: 12
+    typeDailyMission: 2
+    TaskName: Complete 1 level with Bus
+    max_progress: 1
+    fragmentsReward: 030000000300000003000000
+    DailyMissionHanldePrefab: {fileID: 3134674686496672985, guid: 5a6677f6314a1bb46b253009a6f3ad13, type: 3}
+  - ID: 13
+    typeDailyMission: 2
+    TaskName: Complete 1 level with Bulldozer
+    max_progress: 1
+    fragmentsReward: 020000000100000004000000
+    DailyMissionHanldePrefab: {fileID: 3134674686496672985, guid: 412dd6193fc25174cb9394fed0825c65, type: 3}
+  - ID: 14
+    typeDailyMission: 2
+    TaskName: Reach total 5000m
+    max_progress: 5000
+    fragmentsReward: 010000000100000000000000
+    DailyMissionHanldePrefab: {fileID: 1699913549290730067, guid: 017e870468897ae418cf9e694c799917, type: 3}
+  - ID: 15
+    typeDailyMission: 2
+    TaskName: Reach total 7500m
+    max_progress: 7500
+    fragmentsReward: 000000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 1699913549290730067, guid: 017e870468897ae418cf9e694c799917, type: 3}
+  - ID: 16
+    typeDailyMission: 2
+    TaskName: Reach total 10000m
+    max_progress: 10000
+    fragmentsReward: 010000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 1699913549290730067, guid: 017e870468897ae418cf9e694c799917, type: 3}
+  - ID: 17
+    typeDailyMission: 2
+    TaskName: Earn 50000 coins
+    max_progress: 50000
+    fragmentsReward: 020000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 7969312367840441106, guid: 206047a0e9058914d9b9786e204d5062, type: 3}
+  - ID: 18
+    typeDailyMission: 2
+    TaskName: Earn 100000 coins
+    max_progress: 100000
+    fragmentsReward: 010000000200000002000000
+    DailyMissionHanldePrefab: {fileID: 7969312367840441106, guid: 206047a0e9058914d9b9786e204d5062, type: 3}
+  - ID: 19
+    typeDailyMission: 2
+    TaskName: Earn 200000 coins
+    max_progress: 200000
+    fragmentsReward: 030000000200000004000000
+    DailyMissionHanldePrefab: {fileID: 7969312367840441106, guid: 206047a0e9058914d9b9786e204d5062, type: 3}
+  - ID: 20
+    typeDailyMission: 2
+    TaskName: Upgrade Fuel 10 times
+    max_progress: 10
+    fragmentsReward: 010000000200000001000000
+    DailyMissionHanldePrefab: {fileID: 1855246360380149827, guid: c84b227b22682d84d9a9692c43d574b6, type: 3}
+  - ID: 21
+    typeDailyMission: 2
+    TaskName: Upgrade Fuel 15 times
+    max_progress: 15
+    fragmentsReward: 020000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 1855246360380149827, guid: c84b227b22682d84d9a9692c43d574b6, type: 3}
+  - ID: 22
+    typeDailyMission: 2
+    TaskName: Upgrade Grip 5 times
+    max_progress: 5
+    fragmentsReward: 010000000100000001000000
+    DailyMissionHanldePrefab: {fileID: 1855246360380149827, guid: 1de12dc7b77e8a64bb37c69a68d33025, type: 3}
+  - ID: 23
+    typeDailyMission: 2
+    TaskName: Upgrade Grip 10 times
+    max_progress: 10
+    fragmentsReward: 000000000200000001000000
+    DailyMissionHanldePrefab: {fileID: 1855246360380149827, guid: 1de12dc7b77e8a64bb37c69a68d33025, type: 3}
+  - ID: 24
+    typeDailyMission: 2
+    TaskName: Complete 3 level without In-come Mission
+    max_progress: 3
+    fragmentsReward: 020000000200000001000000
+    DailyMissionHanldePrefab: {fileID: 3887422744998839633, guid: dac5cb8ecbdfa164cbdbf81358cf2148, type: 3}
+  init: 0

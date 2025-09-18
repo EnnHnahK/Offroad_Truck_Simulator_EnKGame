@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3563840298716536990
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.29560348
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.154284
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.0951788
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+      propertyPath: m_Name
+      value: Boat SUV Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+--- !u!1 &4446218380125773263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1f46f241cb6a94141a96e39fd4a88819, type: 3}
+  m_PrefabInstance: {fileID: 3563840298716536990}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &-612023790416978410
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446218380125773263}
+  serializedVersion: 2
+  m_Mass: 100
+  m_Drag: 0.5
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &297242573203393169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446218380125773263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.44455025, y: 2.617356, z: 0.5864353}
+  m_Center: {x: 0.049478456, y: -0.06989842, z: 0.019390253}
